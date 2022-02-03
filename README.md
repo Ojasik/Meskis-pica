@@ -1,7 +1,7 @@
 # Meskis-pica
 Java projekts kurs realize picas pasutijumu sistemu.
 
-![Picas attels](https://e7.pngegg.com/pngimages/345/112/png-clipart-california-style-pizza-sicilian-pizza-super-pica-uraganas-der-standard-pizza-food-recipe.png)
+![Picas attels](https://w7.pngwing.com/pngs/448/578/png-transparent-pizza-margherita-italian-cuisine-chicago-style-pizza-pepperoni-pizza.png)
 
 ### **Daramo darbu saraksts:pizza::pizza::pizza:**
 - [x]Izveidot pica klase
@@ -18,5 +18,5 @@ Java projekts kurs realize picas pasutijumu sistemu.
 - [x]Izveidot Order calculation
 - [x]Izveidot cenas un piegade
 - [x]Pievienot switch main dala
-- []Izdzest neizmantotos zarus
-- []Pievienot picas veidus 
+- [x]Izdzest neizmantotos zarus
+- [x]Pievienot picas veidus 
