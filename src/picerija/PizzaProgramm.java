@@ -35,8 +35,10 @@ public class PizzaProgramm {
 						
 						String picasIzmers;
 						picasIzmers=JOptionPane.showInputDialog("Izvelies picas izmeru - Liela, Videja, Maza: ");
-						
 						pizza.setSize(picasIzmers);
+						String picasVeids;
+						picasVeids=JOptionPane.showInputDialog("Izvelies picu: Grieku, Pikanta, Kapri, Lauku");
+						pizza.setVeids(picasVeids);
 						
 						int toppingsDaudzums=Integer.parseInt(JOptionPane.showInputDialog("Ievadi piedevu daudzumu: "));
 						
@@ -82,6 +84,7 @@ public class PizzaProgramm {
 					order.orderPriceCalculation();
 			        order.printOrderSummary();
 			        
+			        
 			    break;
 			    
 				case "2":
@@ -98,9 +101,7 @@ public class PizzaProgramm {
 		
 		
 		
-		//Order order = new Order(pizzas, dzerieni, pizzas);
-        //order.orderPriceCalculation();
-        //order.printOrderSummary();
+		
 
 	}
 

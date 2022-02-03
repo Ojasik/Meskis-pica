@@ -3,9 +3,17 @@ package picerija;
 import java.util.ArrayList;
 
 public class Pizza {
-	private String size;
+	private String size, veids;
     private ArrayList<String> toppings;
 
+    
+    public String getVeids() {
+    	return veids;
+    }
+    
+    public void setVeids(String veids) {
+    	this.veids=veids;
+    }
     public String getSize() {
         return size;
     }

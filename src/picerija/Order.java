@@ -138,7 +138,7 @@ public class Order extends PizzaProgramm{
 	public void printOrderSummary() {
 		
         for (Pizza pizza : pizzas) {
-            JOptionPane.showMessageDialog(null, "Pasutits "+pizza.getSize()+" pica ar "+pizza.getToppings());
+            JOptionPane.showMessageDialog(null, "Pasutits "+pizza.getVeids()+" "+pizza.getSize()+" pica ar "+pizza.getToppings());
         }
         for(Dzeriens dzeriens : dzerieni) {
         	JOptionPane.showMessageDialog(null, "Pasutits "+dzeriens.getTilp()+" "+dzeriens.getDzeriens());
