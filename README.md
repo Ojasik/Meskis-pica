@@ -18,3 +18,5 @@ Java projekts kurs realize picas pasutijumu sistemu.
 - [x]Izveidot Order calculation
 - [x]Izveidot cenas un piegade
 - [x]Pievienot switch main dala
+- []Izdzest neizmantotos zarus
+- []Papildinat programmu 
